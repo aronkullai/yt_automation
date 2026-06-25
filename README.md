@@ -1,4 +1,4 @@
-# Finance YouTube Automation
+# yt_automation
 
 Generate paired YouTube Shorts and long-form scripts for a stickman finance channel using the Claude Messages API.
 
