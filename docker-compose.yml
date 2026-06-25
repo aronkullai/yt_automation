@@ -1,0 +1,9 @@
+services:
+  yt-automation:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./outputs:/app/outputs
+      - ./assets:/app/assets
+    command: python -m yt_automation.cli schedule
